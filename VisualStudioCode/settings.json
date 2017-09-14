@@ -5,6 +5,7 @@
     "editor.renderWhitespace": "boundary",
     "editor.renderIndentGuides": true,
     "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
     "editor.trimAutoWhitespace": true,
     "files.eol": "\n",
     "files.encoding": "utf8",
@@ -12,5 +13,22 @@
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vs-seti",
     "workbench.welcome.enabled": false,
-    "update.channel": "none"
+    "update.channel": "none",
+
+    "[csharp]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[php]": {
+        "editor.tabSize": 4
+    },
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "[scala]": {
+        "editor.tabSize": 2
+    }
 }
