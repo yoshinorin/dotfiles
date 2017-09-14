@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
+    "editor.detectIndentation": true,
+    "editor.trimAutoWhitespace": true,
+    "files.eol": "\n",
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.editor.enablePreview": false
+    "workbench.iconTheme": "vs-seti",
+    "workbench.welcome.enabled": false,
+    "update.channel": "none",
+}
