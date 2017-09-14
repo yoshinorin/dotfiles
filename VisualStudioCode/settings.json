@@ -7,9 +7,10 @@
     "editor.detectIndentation": true,
     "editor.trimAutoWhitespace": true,
     "files.eol": "\n",
+    "files.encoding": "utf8",
     "workbench.colorTheme": "Visual Studio Light",
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vs-seti",
     "workbench.welcome.enabled": false,
-    "update.channel": "none",
+    "update.channel": "none"
 }
