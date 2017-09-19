@@ -30,5 +30,8 @@
     },
     "[scala]": {
         "editor.tabSize": 2
-    }
+    },
+    "[xml]": {
+        "editor.tabSize": 2
+  }
 }
