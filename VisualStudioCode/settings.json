@@ -6,14 +6,14 @@
     "editor.renderIndentGuides": true,
     "editor.detectIndentation": true,
     "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
     "editor.trimAutoWhitespace": true,
     "files.eol": "\n",
     "files.encoding": "utf8",
     "workbench.colorTheme": "Visual Studio Light",
     "workbench.editor.enablePreview": false,
-    "workbench.iconTheme": "vs-seti",
-    "workbench.welcome.enabled": false,
-    "update.channel": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "update.channel": "default",
 
     "[csharp]": {
         "editor.insertSpaces": false,
