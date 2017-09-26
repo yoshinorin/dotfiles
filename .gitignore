@@ -5,6 +5,8 @@
 # General
 *.log
 *.tmp
+*.gz
+*.tar
 ~$*
 node_modules/
 Thumbs.db
