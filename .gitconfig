@@ -1,7 +1,10 @@
+[apply]
+        whitespace = fix
 [core]
 	autocrlf = input
 	fileMode = false
 	ignorecase = false
+	whitespace = trailing-space
 [user]
 	name = ""
 	email = ""
