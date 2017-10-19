@@ -14,7 +14,9 @@
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
     "update.channel": "default",
-
+    "files.associations": {
+        "*.blade":"html"
+    },
     "[csharp]": {
         "editor.insertSpaces": false,
         "editor.tabSize": 4
