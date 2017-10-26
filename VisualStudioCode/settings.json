@@ -22,6 +22,9 @@
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
     "update.channel": "default",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
     "files.associations": {
         "*.blade":"html"
     },
