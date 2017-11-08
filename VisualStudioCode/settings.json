@@ -8,6 +8,7 @@
     "editor.insertSpaces": true,
     "editor.minimap.enabled": false,
     "editor.trimAutoWhitespace": true,
+    "explorer.openEditors.visible": 0,
     "files.exclude": {
         "**/.ensime_cache": true,
         "**/.git": true,
