@@ -1,14 +1,16 @@
 [apply]
-        whitespace = fix
+  whitespace = fix
 [core]
-	autocrlf = input
-	fileMode = false
-	ignorecase = false
-	whitespace = trailing-space
+  autocrlf = input
+  fileMode = false
+  ignorecase = false
+  whitespace = trailing-space
 [user]
-	name = ""
-	email = ""
+  name = ""
+  email = ""
 [i18n]
-	filesEncoding = utf-8
+  filesEncoding = utf-8
+[init]
+  templatedir = ~/.git_template
 [push]
-	default = simple
+  default = simple
