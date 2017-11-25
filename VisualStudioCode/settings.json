@@ -68,5 +68,8 @@
     },
     "[yaml]": {
         "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.tabSize": 2
     }
 }
