@@ -14,3 +14,10 @@
   templatedir = ~/.git_template
 [push]
   default = simple
+[color]
+	ui = auto
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge --skip -- %f
+	required = true
+	process = git-lfs filter-process --skip
