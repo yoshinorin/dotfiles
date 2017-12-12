@@ -75,5 +75,7 @@
     },
     "[scss]": {
         "editor.tabSize": 2
-    }
+    },
+    //plugins
+    "gitlens.blame.ignoreWhitespace": true
 }
