@@ -29,16 +29,12 @@
     "files.eol": "\n",
     "files.encoding": "utf8",
     "workbench.colorTheme": "Visual Studio Light",
-    "workbench.colorCustomizations": {
-      "terminal.background": "#151515",
-      "terminal.foreground": "#F2F2F2"
-    },
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
     "update.channel": "default",
-    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
     //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.fontSize": 12,
     "files.associations": {
