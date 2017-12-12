@@ -44,6 +44,7 @@
     "files.associations": {
         "*.blade":"html"
     },
+    //Code format
     "[csharp]": {
         "editor.insertSpaces": false,
         "editor.tabSize": 4
