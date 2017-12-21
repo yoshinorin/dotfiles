@@ -11,6 +11,11 @@
     "editor.trimAutoWhitespace": true,
     "explorer.openEditors.visible": 0,
     "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.blade":"html"
+    },
+    "files.eol": "\n",
+    "files.encoding": "utf8",
     "files.exclude": {
         "**/.ensime_cache": true,
         "**/.git": true,
@@ -27,8 +32,6 @@
         "**/app-2.12": true,
         "**/test-2.12": true
     },
-    "files.eol": "\n",
-    "files.encoding": "utf8",
     "workbench.colorTheme": "Visual Studio Light",
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
@@ -38,9 +41,6 @@
     //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.fontSize": 12,
-    "files.associations": {
-        "*.blade":"html"
-    },
     //Code format
     "[csharp]": {
         "editor.insertSpaces": false,
