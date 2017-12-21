@@ -10,6 +10,7 @@
     "editor.tabSize": 2,
     "editor.trimAutoWhitespace": true,
     "explorer.openEditors.visible": 0,
+    "extensions.ignoreRecommendations": true,
     "files.exclude": {
         "**/.ensime_cache": true,
         "**/.git": true,
