@@ -10,6 +10,7 @@
     "editor.tabSize": 2,
     "editor.trimAutoWhitespace": true,
     "explorer.openEditors.visible": 0,
+    "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
     "files.associations": {
         "*.blade":"html"
