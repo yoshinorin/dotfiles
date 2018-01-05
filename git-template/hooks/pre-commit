@@ -1,0 +1,28 @@
+#!/bin/sh
+
+PRETTIER_PATH="./node_modules/.bin/prettier"
+PRETTIER_COMMON_OPTIONS="--tab-width 2 --use-tabs false"
+
+if [ -e $PRETTIER_PATH ]; then
+  for JS_FILE in `git diff --staged --name-only | grep .js`; do
+    $PRETTIER_PATH $PRETTIER_COMMON_OPTIONS --write $JS_FILE
+    git add $JS_FILE
+  done
+
+  for SCSS_FILE in `git diff --staged --name-only | grep .scss`; do
+    $PRETTIER_PATH $PRETTIER_COMMON_OPTIONS --write $SCSS_FILE
+    git add $SCSS_FILE
+  done
+
+  for CSS_FILE in `git diff --staged --name-only | grep .css`; do
+    $PRETTIER_PATH $PRETTIER_COMMON_OPTIONS --write $CSS_FILE
+    git add $CSS_FILE
+  done
+fi
+
+AWS_KEY_GREP_RESULT=`git diff --staged | grep KEY | grep AKIA`
+if [ -n "${AWS_KEY_GREP_RESULT}" ]; then
+  echo 'AWS_ACCESS_KEY might be in this change.'
+  echo ${GREP_RESULT}
+  exit 1
+fi
