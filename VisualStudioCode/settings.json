@@ -25,6 +25,7 @@
         "**/.DS_Store": true,
         "**/*.min.js": true,
         "**/*.min.css": true,
+        "**/*.cache": true,
         "**/*.gz": true,
         "**/node_modules/": true,
         "**/target": true,
