@@ -15,5 +15,8 @@ indent_size = 2
 [*.js]
 indent_size = 2
 
+[*.ts]
+indent_size = 4
+
 [*.php]
 indent_size = 4
