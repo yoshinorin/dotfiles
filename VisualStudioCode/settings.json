@@ -56,6 +56,9 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
+    "[typescript]": {
+        "editor.tabSize": 4
+    },
     "[php]": {
         "editor.tabSize": 4
     },
