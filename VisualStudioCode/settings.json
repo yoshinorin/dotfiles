@@ -35,7 +35,7 @@
         "**/app-2.12": true,
         "**/test-2.12": true
     },
-    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorTheme": "Default Light+",
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
