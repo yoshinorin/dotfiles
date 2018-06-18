@@ -16,6 +16,8 @@
   ff = false
 [push]
   default = simple
+[pull]
+  ff = only
 [color]
   ui = auto
 [filter "lfs"]
