@@ -12,6 +12,8 @@
   filesEncoding = utf-8
 [init]
   templatedir = ~/.git_template
+[merge]
+  ff = false
 [push]
   default = simple
 [color]
