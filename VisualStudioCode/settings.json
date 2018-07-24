@@ -27,6 +27,8 @@
         "**/*.min.css": true,
         "**/*.cache": true,
         "**/*.gz": true,
+        "**/*.ibd/": true,
+        "**/*.frm/": true,
         "**/node_modules/": true,
         "**/target": true,
         "**/tmp/": true,
