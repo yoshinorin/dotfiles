@@ -29,6 +29,8 @@
         "**/*.gz": true,
         "**/*.ibd/": true,
         "**/*.frm/": true,
+        "**/*.exe/": true,
+        "**/*.dll/": true,
         "**/node_modules/": true,
         "**/target": true,
         "**/tmp/": true,
