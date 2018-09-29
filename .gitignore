@@ -1,6 +1,7 @@
-# IntelliJ specific
+# IDE specific
 .idea/
 .idea_modules/
+.vscode/
 
 # General
 *.log
