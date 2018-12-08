@@ -72,6 +72,9 @@
     "[scala]": {
         "editor.tabSize": 2
     },
+    "[sql]": {
+        "editor.tabSize": 2
+    },
     "[json]": {
         "editor.tabSize": 2
     },
