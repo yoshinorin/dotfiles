@@ -13,6 +13,8 @@ node_modules/
 Thumbs.db
 .DS_Store
 *.exe
+*.dll
+*.pdb
 
 # Scala
 dist/*
