@@ -37,7 +37,10 @@
         "**/temp/": true,
         "**/vendor/": true,
         "**/app-2.12": true,
-        "**/test-2.12": true
+        "**/test-2.12": true,
+        "**/.next": true,
+        "**/.vscode": true,
+        "**/out": true
     },
     "workbench.colorTheme": "Default Light+",
     "workbench.editor.enablePreview": false,
