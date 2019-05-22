@@ -24,6 +24,10 @@ src_managed/
 project/boot/
 project/plugins/project/
 
+# CSharp
+**/bin/*
+**/obj/*
+
 # Front end
 **/node_modules/*
 **/dist/*
