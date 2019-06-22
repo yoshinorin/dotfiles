@@ -33,3 +33,6 @@ indent_size = 2
 
 [*.cpp]
 indent_size = 4
+
+[*.html]
+indent_size = 2
