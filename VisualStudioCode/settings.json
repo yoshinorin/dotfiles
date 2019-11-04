@@ -93,6 +93,7 @@
         "editor.tabSize": 2
     },
     //plugins
+    "remote.SSH.showLoginTerminal": true,
     "gitlens.blame.ignoreWhitespace": true,
     //color customization example
     "workbench.colorCustomizations": {
