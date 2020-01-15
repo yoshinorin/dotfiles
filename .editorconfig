@@ -34,5 +34,14 @@ indent_size = 2
 [*.cpp]
 indent_size = 4
 
+[*.py]
+indent_size = 4
+
+[*.yaml]
+indent_size = 2
+
+[*.yml]
+indent_size = 2
+
 [*.html]
 indent_size = 2
