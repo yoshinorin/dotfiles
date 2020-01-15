@@ -2,6 +2,7 @@
 .idea/
 .idea_modules/
 .vscode/
+*.code-workspace
 
 # General
 *.log
