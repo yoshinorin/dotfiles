@@ -18,3 +18,14 @@ setopt share_history
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+setopt nonomatch
+setopt clobber
+
+# anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
+eval "$(pyenv init -)"
+
+# anyenv - python
+export PATH="$HOME/.anyenv/envs/pyenv/shims/python:$PATH"
