@@ -29,3 +29,7 @@ eval "$(pyenv init -)"
 
 # anyenv - python
 export PATH="$HOME/.anyenv/envs/pyenv/shims/python:$PATH"
+
+setopt nonomatch
+setopt clobber
+unsetopt correct_all
