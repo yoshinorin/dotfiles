@@ -24,6 +24,8 @@ lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
+*/.g8/*
+.sbtops
 
 # CSharp
 **/bin/*
