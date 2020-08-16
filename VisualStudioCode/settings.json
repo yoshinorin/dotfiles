@@ -74,6 +74,9 @@
     "[ruby]": {
         "editor.tabSize": 2
     },
+    "[go]": {
+        "editor.tabSize": 2
+    },
     "[scala]": {
         "editor.tabSize": 2
     },
