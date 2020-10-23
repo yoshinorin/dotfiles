@@ -55,6 +55,7 @@
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.fontSize": 12,
     //Code format
+    "go.formatTool": "gofmt",
     "[csharp]": {
         "editor.insertSpaces": false,
         "editor.tabSize": 4
