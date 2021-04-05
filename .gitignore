@@ -5,6 +5,7 @@
 *.code-workspace
 
 # General
+.env
 *.log
 *.tmp
 *.gz
