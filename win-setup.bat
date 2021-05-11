@@ -1,1 +1,1 @@
-choco install git sbt jq vscode -y
+choco install git sbt jq vscode mariadb -y
