@@ -27,6 +27,7 @@ project/boot/
 project/plugins/project/
 */.g8/*
 .sbtops
+.bsp
 
 # CSharp
 **/bin/*
