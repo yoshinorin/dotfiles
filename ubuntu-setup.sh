@@ -14,6 +14,8 @@ apt install -y \
   traceroute \
   tcpdump \
   vim \
-  wget
-  
+  wget \
+  zip \
+  unzip
+
 apt autoremove -y
