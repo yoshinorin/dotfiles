@@ -15,11 +15,16 @@
 [merge]
   ff = false
 [push]
-  default = simple
+  default = current
 [pull]
   ff = only
+  rebase = false
 [color]
   ui = auto
+[fetch]
+  prune = true
+[diff]
+  guitool = vscode
 [filter "lfs"]
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge --skip -- %f
