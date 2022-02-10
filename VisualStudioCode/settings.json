@@ -49,9 +49,7 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.settings.editor": "json",
     "update.mode": "none",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
-    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.fontSize": 12,
     //Code format
