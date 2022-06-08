@@ -16,6 +16,7 @@ apt install -y \
   vim \
   wget \
   zip \
-  unzip
+  unzip \
+  sysstat
 
 apt autoremove -y
