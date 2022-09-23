@@ -20,7 +20,8 @@ apt install -y \
   vim \
   wget \
   zip \
-  unzip
+  unzip \
+  rbenv
 
 # Install Scala & sbt
 curl -s "https://get.sdkman.io?rcupdate=false" | bash && source "$HOME/.sdkman/bin/sdkman-init.sh" && sdk install java 11.0.11.hs-adpt && sdk install scala 2.13.4 && sdk install sbt
@@ -44,7 +45,6 @@ source ~/.bash_profile
 nodenv global 16.8.0
 
 # Ruby
-apt install rbenv
 rbenv init
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
