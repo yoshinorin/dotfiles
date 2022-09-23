@@ -48,7 +48,7 @@ nodenv global 16.8.0
 rbenv init
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
-rbenv install .4.12
+rbenv install 2.4.1
 
 # Clean up
 apt autoremove -y
