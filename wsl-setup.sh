@@ -43,6 +43,12 @@ nodenv install 16.8.0
 source ~/.bash_profile
 nodenv global 16.8.0
 
+# Ruby
+apt install rbenv
+rbenv init
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
+rbenv install .4.12
 
 # Clean up
 apt autoremove -y
