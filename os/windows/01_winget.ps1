@@ -1,0 +1,20 @@
+winget uninstall Clipchamp.Clipchamp_yxz26nhyzhsrt
+winget uninstall Microsoft.Edge Microsoft.549981C3F5F10_8wekyb3d8bbwe
+winget uninstall Microsoft.549981C3F5F10_8wekyb3d8bbwe
+winget uninstall Microsoft.BingWeather_8wekyb3d8bbwe
+winget uninstall Microsoft.GamingApp_8wekyb3d8bbwe
+winget uninstall Microsoft.BingNews_8wekyb3d8bbwe
+winget uninstall Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe
+winget uninstall Microsoft.SkypeApp_kzf8qxf38zg5c
+winget uninstall Microsoft.Xbox.TCUI_8wekyb3d8bbwe
+winget uninstall Microsoft.XboxApp_8wekyb3d8bbwe
+winget uninstall Microsoft.XboxGameOverlay_8wekyb3d8bbwe
+winget uninstall Microsoft.XboxGamingOverlay_8wekyb3d8bbwe
+winget uninstall Microsoft.XboxIdentityProvider_8wekyb3d8bbwe
+winget uninstall Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe
+winget uninstall Microsoft.ZuneVideo_8wekyb3d8bbwe
+winget uninstall Microsoft.Teams
+
+winget install CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc
+winget install Microsoft.VisualStudioCode
+winget install Microsoft.PowerToys

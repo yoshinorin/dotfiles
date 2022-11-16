@@ -4,12 +4,13 @@ apt update && apt upgrade -y
 apt install -y \
   bash \
   curl \
-  coreutils
+  coreutils \
   git \
+  gcc \
   grep \
-  iprote2 \
   iputils-ping \
   iptables \
+  make \
   nginx \
   traceroute \
   tcpdump \
@@ -17,6 +18,6 @@ apt install -y \
   wget \
   zip \
   unzip \
-  sysstat
+  rbenv
 
 apt autoremove -y
