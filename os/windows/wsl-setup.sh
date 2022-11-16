@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# curl -L https://raw.githubusercontent.com/yoshinorin/dotfiles/master/wsl-setup.sh > wsl-setup.sh
-
 apt update && apt upgrade -y
 apt install -y \
   bash \
