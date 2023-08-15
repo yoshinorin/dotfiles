@@ -53,7 +53,6 @@
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.fontSize": 12,
     //Code format
-    "go.formatTool": "gofmt",
     "[csharp]": {
         "editor.insertSpaces": false,
         "editor.tabSize": 4
@@ -73,8 +72,12 @@
     "[ruby]": {
         "editor.tabSize": 2
     },
+    "go.formatTool": "gofmt",
     "[go]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        }
     },
     "[scala]": {
         "editor.tabSize": 2
