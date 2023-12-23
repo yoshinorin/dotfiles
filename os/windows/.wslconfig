@@ -1,7 +1,10 @@
 [wsl2]
 guiapplications=false
-memory=8GB
+memory=4GB
+#memory=8GB
+#memory=16GB
 processors=2
+#processors=4
 swap=0
 localhostForwarding=True
 
